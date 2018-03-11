@@ -12,8 +12,8 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |call| 
-    call.to_str
-    str.length > 4
+    call.to_s
+    call.length > 4
   end
 end
 
