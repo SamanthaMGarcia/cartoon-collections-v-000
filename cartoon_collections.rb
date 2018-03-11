@@ -14,8 +14,8 @@ def long_planeteer_calls(planeteer_calls)
    planeteer_calls.any? { |call| call.length > 4 }
 end
 
-def find_the_cheese(strings)
+def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.find { |cheese| cheese == "cheddar"|| "gouda"|| "camembert" }
+  cheese_types.find { |cheese| cheese == "cheddar"|| "gouda"|| "camembert" }
 end
 
