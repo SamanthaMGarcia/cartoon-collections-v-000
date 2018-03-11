@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.capitalize
     planeteer_calls.join(""",")
-  puts "#{call[0]}! #{call[1]}! #{call[2]}! #{call[3]}!"
+  puts "#{call[0]}! #{call[1]}! #{call[2]}!"
   end
   new_array
 end
