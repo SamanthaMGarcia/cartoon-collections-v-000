@@ -18,3 +18,4 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings.include("cheddar"|| "gouda"|| "camembert" }
 end
+
