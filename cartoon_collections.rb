@@ -6,11 +6,11 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
-    end
-    planeteer_calls.capitalize
+    call.capitalize
     planeteer_calls.join(""",")
   puts "#{call[0]}! #{call[1]}! #{call[2]}! #{call[3]}!"
-  summon_captain_planet
+  end
+  summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls# code an argument here
