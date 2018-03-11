@@ -13,7 +13,7 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |call| 
     call.to_s
-    call.length > 4
+    string.length > 4
   end
 end
 
